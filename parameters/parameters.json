@@ -1,0 +1,28 @@
+{
+	"training_epochs" : 1000,
+
+    "learning_rate" : 0.001,
+    "momentum" : 0.9,
+    "model" : "lstm",
+    "input_keep_probability" : 1.0,
+    "output_keep_probability" : 1.0,
+    "sequence_length" : 100,
+    "input_dimension" : 37,
+    "batch_size" : 200,
+    "state_size" : 50,
+    "n_layers" : 1,
+    "n_classes" : 2,
+
+    "threshold" : 0.5,
+
+    "pk_step" : 32,
+    "ma_step" : 32,
+
+    "log_dir" : "log",
+    
+    "checkpoint_dir" : "checkpoint",
+    "checkpoint_linear_dir" : "checkpoint_linear",
+    "checkpoint_sigmoid_dir" : "checkpoint_sigmoid",
+    "checkpoint_softmax_dir" : "checkpoint_softmax"
+
+}
